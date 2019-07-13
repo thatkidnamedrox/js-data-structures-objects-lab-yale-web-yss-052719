@@ -25,7 +25,5 @@ function deleteFromDriverByKey(driver, key)
     if (k != key) {
       result[k] = driver[k];
     }
-
   }
-
 }
