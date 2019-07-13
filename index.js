@@ -8,6 +8,6 @@ function updateDriverWithKeyAndValue(driver, key, value)
   for (const key in driver) {
     result[key] = driver[key];
   }
-  driver[key] = value;
-  driver
+  result[key] = value;
+  result
 }
