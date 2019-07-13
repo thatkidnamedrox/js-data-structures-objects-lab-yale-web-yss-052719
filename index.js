@@ -9,5 +9,5 @@ function updateDriverWithKeyAndValue(driver, key, value)
     result[key] = driver[key];
   }
   result[key] = value;
-  result
+  result;
 }
