@@ -4,7 +4,7 @@ let driver = {};
 
 function updateDriverWithKeyAndValue(driver, key, value)
 {
-  result = {};
+  let result = {};
   for (const key in driver) {
     result[key] = driver[key];
   }
