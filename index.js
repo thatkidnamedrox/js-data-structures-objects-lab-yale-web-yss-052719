@@ -17,7 +17,7 @@ function updateDriverWithKeyAndValue(driver, key, value)
 //   driver[key] = value;
 //   driver;
 // }
-// 
+//
 // function deleteFromDriverByKey(driver, key)
 // {
 //   let result = {};
