@@ -12,18 +12,18 @@ function updateDriverWithKeyAndValue(driver, key, value)
   result;
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
-{
-  driver[key] = value;
-  driver;
-}
-
-function deleteFromDriverByKey(driver, key)
-{
-  let result = {};
-  for (const k in driver) {
-    if (k != key) {
-      result[k] = driver[k];
-    }
-  }
-}
+// function destructivelyUpdateDriverWithKeyAndValue(driver, key, value)
+// {
+//   driver[key] = value;
+//   driver;
+// }
+// 
+// function deleteFromDriverByKey(driver, key)
+// {
+//   let result = {};
+//   for (const k in driver) {
+//     if (k != key) {
+//       result[k] = driver[k];
+//     }
+//   }
+// }
